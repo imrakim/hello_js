@@ -13,15 +13,19 @@ console.log(a)
 let b = 10;
 let c = 5;
 let d = 5;
+let x = b + c;
 
-console.log("b-c =", b - c);
-console.log("d*c =", d * c);
-console.log("b/c =",  b / c);
-console.log("b+c =", b + c)
+console.log("b =",b , "c =",c)
+console.log("b - c =", b - c);
+console.log("d * c =", d * c);
+console.log("b / c =",  b / c);
+console.log("b + c =", b + c)
+console.log("b + c =", x)
 
 
-string  e  qutations add kora jabe but  numbers e qutaions add  kora jabe nah   jdi add kori tahole ans vul asbe but kono error asbe nah !  
 
-string = "";
-number = ;
+// string  e  qutations add kora jabe but  numbers e qutaions add  kora jabe nah   jdi add kori tahole ans vul asbe but kono error asbe nah !  
+
+// string = "";
+// number = ;
 
