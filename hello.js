@@ -22,6 +22,13 @@ console.log("b / c =",  b / c);
 console.log("b + c =", b + c)
 console.log("b + c =", x)
 
+let myName = 24;
+myName = 456867597597;
+myName = 1935901104;
+
+console.log(typeof (myName));
+
+
 
 
 // string  e  qutations add kora jabe but  numbers e qutaions add  kora jabe nah   jdi add kori tahole ans vul asbe but kono error asbe nah !  
