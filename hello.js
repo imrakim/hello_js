@@ -28,8 +28,22 @@ myName = 1935901104;
 
 console.log(typeof (myName));
 
+let rakim = "I'm Proud of You";
+var m = "Bangladesh";
+{
+m = "natore"
+console.log(m);
+}
+m = "I'm Rakim";
+console.log(m);
+let mr = "hlw guys";
+const md ="hgifbgsnbv";
+{
+   
+}
 
-
+console.log(mr);
+console.log(md);
 
 // string  e  qutations add kora jabe but  numbers e qutaions add  kora jabe nah   jdi add kori tahole ans vul asbe but kono error asbe nah !  
 
