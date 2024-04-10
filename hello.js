@@ -38,12 +38,16 @@ m = "I'm Rakim";
 console.log(m);
 let mr = "hlw guys";
 const md ="hgifbgsnbv";
-{
-   
-}
+// {
+//     const p = "gh"; 
+// }
+// console.log(p);
 
-console.log(mr);
-console.log(md);
+{
+
+    let bc = "hello";
+}
+console.log(bc);
 
 // string  e  qutations add kora jabe but  numbers e qutaions add  kora jabe nah   jdi add kori tahole ans vul asbe but kono error asbe nah !  
 
