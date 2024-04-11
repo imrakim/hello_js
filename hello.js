@@ -43,14 +43,17 @@ const md ="hgifbgsnbv";
 // }
 // console.log(p);
 
-{
 
-    let bc = "hello";
-}
-console.log(bc);
 
 // string  e  qutations add kora jabe but  numbers e qutaions add  kora jabe nah   jdi add kori tahole ans vul asbe but kono error asbe nah !  
 
 // string = "";
 // number = ;
+let pmm = 90;
+let pnn = 80;
+
+let pzzz = pmm + pnn;
+console.log("pmm + pnn =",pzzz);
+
+
 
