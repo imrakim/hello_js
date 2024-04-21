@@ -70,6 +70,34 @@ let r = 50;
 let s = 20;
  let rs = 50 % 20;
  console.log(rs);
+  let mm = 10;
+  mm ++;
+  ++mm
+  console.log(mm);
+  let nns = 33;
+  ++nns;
+  --nns;
+  nns++
+  nns--
+  console.log(nns);
+//   arithmetic operators end 
+
+
+// precedent operator start learning
+
+let ab = 2;
+let bc = 2;
+let cb = 12;
+let abc = ab + bc ** cb;
+console.log(abc);
+
+
+let rsss = null;
+console.log(typeof rsss);
+
+
+
+
 
 
 
