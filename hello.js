@@ -98,6 +98,7 @@ console.log(typeof rsss);
 
 
 
+// what is datatypes
 
 
 
