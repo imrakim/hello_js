@@ -49,6 +49,11 @@ const md ="hgifbgsnbv";
 
 // string = "";
 // number = ;
+
+
+
+
+//   arithmetic operators end 
 let pmm = 90;
 let pnn = 80;
 
@@ -80,7 +85,7 @@ let s = 20;
   nns++
   nns--
   console.log(nns);
-//   arithmetic operators end 
+
 
 
 // precedent operator start learning
