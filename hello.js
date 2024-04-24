@@ -221,4 +221,28 @@ bcd/=2;
 console.log(bcd);
 
 
+// comparision operator
+
+let bv = 5;
+let vb = 2;
+console.log(bv==vb);
+
+let vm= 5;
+let mv= 5;
+console.log(vm==mv);
+
+
+let vv= 5;
+let vc= 5;
+console.log(vv===vc);
+
+let cvc = 10;
+let cvb = 10;
+console.log(cvc!==cvb);
+
+
+
+
+
+
 
