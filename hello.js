@@ -132,15 +132,73 @@ let stringTwo="two";
 // console.log(number);
 
 
-//working arithmetic operator + - % / 
+//working arithmetic operator    + - % / *
+
+// additio operator
 let pen = 10;
 let book= 20;
 let plus= pen + book;
+
+
 console.log(plus);
 
-let penn = "10";
-let bookk = "20";
+//subtriction operator 
+let penn = 30;
+let bookk = 20;
 let pluss = penn - bookk;
+
 console.log(pluss);
+
+// multipliction oprator 
+
+let xs = 2;
+let xss = 5;
+
+let xxs = xs * xss;
+console.log(xss);
+
+// modulus operator
+
+let zx = 10;
+let zxx = 5;
+let xz= zx % zxx;
+
+console.log(xz);
+
+// divide operator
+
+let rs= 30;
+let rss=2;
+let sr = rs/rss;
+console.log(sr);
+
+// increment oprator
+
+let pondit = 24;
+pondit++
+++pondit
+console.log(pondit);
+
+// decrement operator
+
+let aims = 25;
+aims--
+--aims
+console.log(aims);
+
+
+
+// work from mzr sir 
+
+let one= "10";
+let two= "20";
+let oneTwo= one +  two; //addition korar karone duitah ekshathe just kora kore  1020 number hbe!
+console.log(oneTwo);
+
+let rakimOne= "one";
+let ponditTwo= "two"
+let ones= rakimOne+ponditTwo; // duitah lekta just add hbe nothing else!
+console.log(ones);
+
 
 
