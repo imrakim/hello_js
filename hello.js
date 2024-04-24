@@ -130,3 +130,17 @@ let stringTwo="two";
 
 // ++number
 // console.log(number);
+
+
+//working arithmetic operator + - % / 
+let pen = 10;
+let book= 20;
+let plus= pen + book;
+console.log(plus);
+
+let penn = "10";
+let bookk = "20";
+let pluss = penn - bookk;
+console.log(pluss);
+
+
