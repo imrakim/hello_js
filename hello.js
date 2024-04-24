@@ -202,3 +202,11 @@ console.log(ones);
 
 
 
+// assignment operator
+
+let abs = 23;
+abs+=2;
+console.log(abs);
+
+
+
