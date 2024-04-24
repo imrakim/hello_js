@@ -208,5 +208,17 @@ let abs = 23;
 abs+=2;
 console.log(abs);
 
+let abc = 25;
+abc-=2;
+console.log(abc);
+
+let abcd = 40;
+abcd*=2;
+console.log(abcd);
+
+let bcd = 30;
+bcd/=2;
+console.log(bcd);
+
 
 
