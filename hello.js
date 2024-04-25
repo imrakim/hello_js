@@ -236,6 +236,11 @@ let rakim = [ "honda civic","audi",'ktm 125', ["nadimbhai",[23,24,["end",[23]]]]
 
 console.log(rakim[3][1][2]);
 
+
+
+const mouse = [ 23, 24, 25, "nadim","samim",[ false, true,26,["rakim",["the end"]]]]
+console.log(mouse [5][3]);
+
 //how to define an array | Indexed array
 // array literal
 // let fruits // declaration
