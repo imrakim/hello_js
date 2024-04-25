@@ -39,21 +39,16 @@
 // let mr = "hlw guys";
 // const md ="hgifbgsnbv";
 // // {
-// //     const p = "gh"; 
+// //     const p = "gh";
 // // }
 // // console.log(p);
 
-
-
-// // string  e  qutations add kora jabe but  numbers e qutaions add  kora jabe nah   jdi add kori tahole ans vul asbe but kono error asbe nah !  
+// // string  e  qutations add kora jabe but  numbers e qutaions add  kora jabe nah   jdi add kori tahole ans vul asbe but kono error asbe nah !
 
 // // string = "";
 // // number = ;
 
-
-
-
-// //   arithmetic operators end 
+// //   arithmetic operators end
 // let pmm = 90;
 // let pnn = 80;
 
@@ -64,7 +59,6 @@
 // let rr = 45;
 // let rrrrr = rrr + rr;
 // console.log("rrr+rr =",rrrrr);
-
 
 // let space = "23" + 5 +3;
 // console.log("33+5+3=",space);
@@ -86,8 +80,6 @@
 //   nns--
 //   console.log(nns);
 
-
-
 // // precedent operator start learning
 
 // let ab = 2;
@@ -96,60 +88,52 @@
 // let abc = ab + bc ** cb;
 // console.log(abc);
 
-
 // let rsss = null;
 // console.log(typeof rsss);
-
-
-
 
 // // what is datatypes
 
 let number = 5;
-let anotherNumber= 10;
+let anotherNumber = 10;
 // console.log(number);
 // number = number+1;
 // console.log(number);
 // number++
 // anotherNumber=anotherNumber+number++
 // console.log(anotherNumber,number);
-anotherNumber=anotherNumber+ ++number
-console.log(anotherNumber,number);
+anotherNumber = anotherNumber + ++number;
+console.log(anotherNumber, number);
 let numberOne = "10";
-let numberTwo ="2";
-let stringOne="ten";
-let stringTwo="two";
+let numberTwo = "2";
+let stringOne = "ten";
+let stringTwo = "two";
 
 // hint what is overloaded operator in javascript?
-
 
 //homework apply arithmethic operator
 // pre and post niye 2 tah example
 //
 
-
 // ++number
 // console.log(number);
-
 
 //working arithmetic operator    + - % / *
 
 // additio operator
 let pen = 10;
-let book= 20;
-let plus= pen + book;
-
+let book = 20;
+let plus = pen + book;
 
 console.log(plus);
 
-//subtriction operator 
+//subtriction operator
 let penn = 30;
 let bookk = 20;
 let pluss = penn - bookk;
 
 console.log(pluss);
 
-// multipliction oprator 
+// multipliction oprator
 
 let xs = 2;
 let xss = 5;
@@ -161,88 +145,93 @@ console.log(xss);
 
 let zx = 10;
 let zxx = 5;
-let xz= zx % zxx;
+let xz = zx % zxx;
 
 console.log(xz);
 
 // divide operator
 
-let rs= 30;
-let rss=2;
-let sr = rs/rss;
+let rs = 30;
+let rss = 2;
+let sr = rs / rss;
 console.log(sr);
 
 // increment oprator
-
 let pondit = 24;
-pondit++
-++pondit
+pondit++;
+++pondit;
 console.log(pondit);
 
 // decrement operator
-
 let aims = 25;
-aims--
---aims
+aims--;
+--aims;
 console.log(aims);
 
-
-
-// work from mzr sir 
-
-let one= "10";
-let two= "20";
-let oneTwo= one +  two; //addition korar karone duitah ekshathe just kora kore  1020 number hbe!
+// work from mzr sir
+let one = "10";
+let two = "20";
+let oneTwo = one + two; //addition korar karone duitah ekshathe just kora kore  1020 number hbe!
 console.log(oneTwo);
 
-let rakimOne= "one";
-let ponditTwo= "two"
-let ones= rakimOne+ponditTwo; // duitah lekta just add hbe nothing else!
+let rakimOne = "one";
+let ponditTwo = "two";
+let ones = rakimOne + ponditTwo; // duitah lekta just add hbe nothing else!
 console.log(ones);
 
-
-
 // assignment operator
-
 let abs = 23;
-abs+=2;
+abs += 2;
 console.log(abs);
 
 let abc = 25;
-abc-=2;
+abc -= 2;
 console.log(abc);
 
 let abcd = 40;
-abcd*=2;
+abcd *= 2;
 console.log(abcd);
 
 let bcd = 30;
-bcd/=2;
+bcd /= 2;
 console.log(bcd);
 
-
 // comparision operator
-
 let bv = 5;
 let vb = 2;
-console.log(bv==vb);
+console.log(bv == vb);
 
-let vm= 5;
-let mv= 5;
-console.log(vm==mv);
+let vm = 5;
+let mv = 5;
+console.log(vm == mv);
 
-
-let vv= 5;
-let vc= 5;
-console.log(vv===vc);
+let vv = 5;
+let vc = 5;
+console.log(vv === vc);
 
 let cvc = 10;
 let cvb = 10;
-console.log(cvc!==cvb);
+console.log(cvc !== cvb);
+
+//String Operators
+let str1 = "Hello";
+let str2 = "World";
+console.log(str1 + " " + str2);
 
 
 
 
+// declearing Array
+//indexing arry
+let students=["nadim","rakim","shantokamal"];
+console.log(students [2]);
 
+// alert(students[1])
 
+// how to reassign value in index Array
+let fruits;
+fruits=["banana","apple","anything"];
+
+fruits[3]="grapes";
+console.log(fruits);
 
