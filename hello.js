@@ -238,9 +238,14 @@ console.log(rakim[3][1][2]);
 
 
 
-const mouse = [ 23, 24, 25, "nadim","samim",[ false, true,26,["rakim",["the end"]]]]
+const mouse = [ 23, 24, 25, "nadim","samim",[ false, true,26,["rakim",["the end"]]]];
 console.log(mouse [5][3]);
 console.log(mouse.toString());
+
+
+let itel = [ 23, 24, 25, "rakim",[12, 13, 14, 15,["hlw js","hlw rafi",16]]]
+itel[4][4][1]="hlw rakim";
+console.log(itel);
 
 //how to define an array | Indexed array
 // array literal
