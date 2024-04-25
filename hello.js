@@ -218,20 +218,44 @@ let str1 = "Hello";
 let str2 = "World";
 console.log(str1 + " " + str2);
 
-
-
-
 // declearing Array
 //indexing arry
-let students=["nadim","rakim","shantokamal"];
-console.log(students [2]);
+let students = ["nadim", "rakim", "shantokamal"];
+console.log(students[2]);
 
 // alert(students[1])
 
 // how to reassign value in index Array
 let fruits;
-fruits=["banana","apple","anything"];
+fruits = ["banana", "apple", "anything", true, null, undefined];
 
-fruits[3]="grapes";
+fruits[3] = "grapes";
 console.log(fruits);
 
+let rakim = [ "honda civic","audi",'ktm 125', ["nadimbhai",[23,24,["end",[23]]]]];
+
+console.log(rakim[3][1][2]);
+
+//how to define an array | Indexed array
+// array literal
+// let fruits // declaration
+// fruits = [ "orange", "banana", [12, 13] , "apple" ," ", true, null, undefined, 12] ; // initialization
+// console.log(fruits);
+
+// // less or almost no use
+// let student = new Array("Shuma", "Ahadi", "Nadim");
+// console.log(students)
+
+// let courses = Array("PHP", "JavaScript", "Python");
+// console.log(courses)
+
+// How to access an array
+//alert(fruits)
+//alert(courses)
+// console.log(fruits[2])
+
+// how to assign value to an array index
+
+// fruits[1] = "grapes" // assign
+// fruits[2][2]=14
+// console.log(fruits[2])
