@@ -232,41 +232,42 @@ fruits = ["banana", "apple", "anything", true, null, undefined];
 fruits[3] = "grapes";
 console.log(fruits);
 
-let rakim = [ "honda civic","audi",'ktm 125', ["nadimbhai",[23,24,["end",[23]]]]];
+let rakim = [
+  "honda civic",
+  "audi",
+  "ktm 125",
+  ["nadimbhai", [23, 24, ["end", [23]]]],
+];
 
 console.log(rakim[3][1][2]);
 
-
-
-const mouse = [ 23, 24, 25, "nadim","samim",[ false, true,26,["rakim",["the end"]]]];
-console.log(mouse [5][3]);
+const mouse = [
+  23,
+  24,
+  25,
+  "nadim",
+  "samim",
+  [false, true, 26, ["rakim", ["the end"]]],
+];
+console.log(mouse[5][3]);
 console.log(mouse.toString());
 
+//note : javascript e array holo ekti object
 
-let itel = [ 23, 24, 25, "rakim",[12, 13, 14, 15,["hlw js","hlw rafi",16]]]
-itel[4][4][1]="hlw rakim";
+let itel = [23, 24, 25, "rakim", [12, 13, 14, 15, ["hlw js", "hlw rafi", 16]]];
+itel[4][4][1] = "hlw rakim";
+itel[5] = "i'm a developer";
 console.log(itel);
+console.log(itel.length);
 
-//how to define an array | Indexed array
-// array literal
-// let fruits // declaration
-// fruits = [ "orange", "banana", [12, 13] , "apple" ," ", true, null, undefined, 12] ; // initialization
-// console.log(fruits);
+// logical operators
+// Check if both conditions are true
+let x = "5";
+let y = 10;
 
-// // less or almost no use
-// let student = new Array("Shuma", "Ahadi", "Nadim");
-// console.log(students)
+cond1= x<y;//true
+cond2=x>y; //false
+cond3= x===y;//false
+cond4=x!==y;//true
 
-// let courses = Array("PHP", "JavaScript", "Python");
-// console.log(courses)
-
-// How to access an array
-//alert(fruits)
-//alert(courses)
-// console.log(fruits[2])
-
-// how to assign value to an array index
-
-// fruits[1] = "grapes" // assign
-// fruits[2][2]=14
-// console.log(fruits[2])
+console.log(cond1,cond2,cond3,cond4);
